@@ -22,9 +22,14 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: deps
+        run: |
+          sudo apt update -y
+          sudo apt install -y screen
+
       - name: Run
         run: |
-          ./pingbot.out;sleep 10 && exit 0
+          bash start.sh
         env:
           MONGODB_URI: ${{ secrets.MONGODB_URI }}
 
