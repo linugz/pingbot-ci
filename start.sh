@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-screen -dmS pingbot ./pingbot.sh
+screen -dmS pingbot ./pingbot.out
 
 sleep 10
 
