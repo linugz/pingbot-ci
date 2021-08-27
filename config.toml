@@ -1,5 +1,5 @@
 [http]
-enabled=true       # Enable Website
+enabled=false      # Enable Website
 port=8080          # Port to listen
 
 [backend]
@@ -13,7 +13,7 @@ check=2            # Check every two minutes
 
 [cluster]
 id=1               # Cluster ID
-node=1             # Node ID
+node=9             # Node ID
 
 [mongodb]
 database="PingBot" # MongoDB Database Name
