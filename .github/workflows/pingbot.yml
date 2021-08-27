@@ -24,7 +24,9 @@ jobs:
 
       - name: Run
         run: |
-          ./pingbot.out;sleep 10 && exit 5
+          ./pingbot.out;sleep 10 && exit 0
+        env:
+          MONGODB_URI: ${secrets.MONGODB_URI}
 
       - name: Commit changes
         run: |
