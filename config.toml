@@ -1,5 +1,5 @@
 [http]
-enabled=false      # Enable Website
+enabled=true      # Enable Website
 port=8080          # Port to listen
 
 [backend]
