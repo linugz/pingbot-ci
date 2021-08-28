@@ -4,7 +4,6 @@
 
 sleep 10
 
-wget http://0.0.0.0:8080/api/status -O status
-cat status
+curl -ssL https://violentmerryassembly.gaming0skar123.repl.co/api/status
 
 exit
