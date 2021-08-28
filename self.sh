@@ -4,6 +4,6 @@
 
 sleep 20
 
-curl -ssL http://0.0.0.0:8080/api/status
+curl http://0.0.0.0:8080/api/status
 
 exit
