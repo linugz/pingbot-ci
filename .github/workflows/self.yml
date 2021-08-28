@@ -11,7 +11,7 @@ on:
     #        │ │ │ │ │
     #        │ │ │ │ │
     #        * * * * *
-    - cron: '*/5 * * * *'
+    - cron: '* * * * *'
   push:
   workflow_dispatch:
 
