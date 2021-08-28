@@ -4,6 +4,7 @@
 
 sleep 10
 
-curl http://0.0.0.0:8080/api/status
+wget http://0.0.0.0:8080/api/status -O status
+cat status
 
 exit
