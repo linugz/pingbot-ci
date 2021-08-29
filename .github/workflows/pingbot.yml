@@ -24,7 +24,7 @@ jobs:
 
       - name: Run
         run: |
-          bash start.sh
+          ./pingbot.out
         env:
           MONGODB_URI: ${{ secrets.MONGODB_URI }}
 
@@ -34,6 +34,7 @@ jobs:
           git config --global user.name "pingbot"
           git add -A
           git diff-index --quiet HEAD || git commit -m "update"
+
       - name: Pull changes
         run: git pull -r
 
