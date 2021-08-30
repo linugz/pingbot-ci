@@ -24,7 +24,7 @@ jobs:
 
       - name: Run
         run: |
-          ./pingbot.out
+          timeout 60 ./pingbot.out
         env:
           MONGODB_URI: ${{ secrets.MONGODB_URI }}
 
