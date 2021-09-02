@@ -28,7 +28,7 @@ jobs:
           MONGODB_URI: ${{ secrets.MONGODB_URI }}
 
       - name: Update
-        run: yes | ./pingbot.out -u
+        run: timeout 100 ./pingbot.out -u
         env:
           MONGODB_URI: ${{ secrets.MONGODB_URI }}
 
