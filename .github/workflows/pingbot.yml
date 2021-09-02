@@ -28,7 +28,7 @@ jobs:
           MONGODB_URI: ${{ secrets.MONGODB_URI }}
 
       - name: Update
-        run: yes | ./pingbot.out --help
+        run: ./pingbot.out --help
 
       - name: Commit changes
         run: |
