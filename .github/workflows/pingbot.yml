@@ -29,6 +29,8 @@ jobs:
 
       - name: Update
         run: ./pingbot.out --help
+        env:
+          MONGODB_URI: ${{ secrets.MONGODB_URI }}
 
       - name: Commit changes
         run: |
