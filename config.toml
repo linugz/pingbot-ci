@@ -8,7 +8,7 @@ ping=3                      # Ping every three minutes
 cache=5                     # Get urls from db every five url pings
 
 [autoupdate]
-enabled=true                # Enable Auto Updater
+enabled=false               # Enable Auto Updater
 check=2                     # Check every two minutes
 
 [cluster]
