@@ -25,7 +25,7 @@ jobs:
       - name: Run
         run: ./pingbot.out
         env:
-          MONGODB_URI: ${{ secrets.MONGODB_URI }}
+          MONGO_URI: ${{ secrets.MONGO_URI }}
 
       - name: Update
         run: yes | ./pingbot.out -u
