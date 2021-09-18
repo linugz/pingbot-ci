@@ -17,7 +17,7 @@ node=1                      # Node ID
 
 [mongodb]
 database="PingBot"          # MongoDB Database Name
-collection="urls"            # MongoDB Collection Name
+collection="url"            # MongoDB Collection Name
 
 [options]
 stop_after_ping=true        # Stop after all pings
