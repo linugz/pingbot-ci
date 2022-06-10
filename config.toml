@@ -21,4 +21,4 @@ collection="urls"           # MongoDB Collection Name
 
 [options]
 stop_after_ping=true        # Stop after all pings
-stop_after_ping_timeout=120 # If not pinget or other options stop program after 120 (default) seconds
+stop_after_ping_timeout=360 # If not pinget or other options stop program after 120 (default) seconds
